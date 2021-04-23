@@ -1,0 +1,39 @@
+exports.run = (client, message, args, user, channel, self) => {
+
+  client.say(channel,
+    `
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+    BibleThump
+    BibleThump
+    BibleThump
+    PJSalt
+   `
+  )
+}
