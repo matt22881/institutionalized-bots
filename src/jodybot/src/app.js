@@ -1,5 +1,5 @@
 require('dotenv').config()
-const { BOT_USERNAME , OAUTH_TOKEN } = process.env
+const { JODY_BOT_USERNAME , JODY_OAUTH_TOKEN } = process.env
 import channels from './constants/channels'
 import users from './constants/users'
 import bots from './constants/bots'
@@ -18,8 +18,8 @@ const options = {
     reconnectInterval: 1000,
 	},
   identity: {
-		username: BOT_USERNAME,
-		password: OAUTH_TOKEN
+		username: JODY_BOT_USERNAME,
+		password: JODY_OAUTH_TOKEN
 	},
 	channels
 }

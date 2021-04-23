@@ -1,0 +1,26 @@
+{
+  "name": "institutionalized-bots",
+  "version": "1.0.0",
+  "description": "a few very simple twitch bots for a few members committed into the Institution",
+  "main": "/",
+  "scripts": {
+    "start": "node src/jodybot/src/index.js & node src/joeybot/src/index.js & node src/lukebot/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt22881/institutionalized-bots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt22881/institutionalized-bots/issues"
+  },
+  "homepage": "https://github.com/matt22881/institutionalized-bots#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "tmi.js": "^1.8.3"
+  }
+}
