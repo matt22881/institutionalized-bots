@@ -55,7 +55,7 @@ client.on("chat", (channel, userstate, message, self) => {
   const cmd = args.shift().toLowerCase();
   const pfx = message.substring(0, prefix.length)
 
-  if (userstate.username === BOT_USERNAME) {
+  if (userstate.username === LUKE_BOT_USERNAME) {
     console.log(`Not checking bot's messages.`)
     return
   }
