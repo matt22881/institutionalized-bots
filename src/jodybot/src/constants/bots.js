@@ -8,7 +8,7 @@ const bots = [
     'wizebot',
     'streamers_area',
     'streamelements',
-
+    'streamlabs',
+    'mattbot22881'
 ]
-
 export default bots

@@ -19,7 +19,7 @@ const options = {
 	},
   identity: {
 		username: JOEY_BOT_USERNAME,
-		password: JOEY_AUTH_TOKEN
+		password: JOEY_OAUTH_TOKEN
 	},
 	channels
 }
@@ -32,7 +32,7 @@ client.on("join", (channel, username, self) => {
   if (!self && !bots.includes(username)){
     const time = new Date
     console.log(`[${time.toLocaleString()}] ${username} has joined ${channel}`)
-    client.say(channel, `Thanks and welcome to the channel, ${username}!  Insert generic greeting here!`)
+    client.say(channel, `Thanks and welcome to the stream, ${username}!  Glad to have you here! Kick off your shoes and remember positive vibes only! No Krusty's! 💜 🤜🏻🤛🏿 💚`)
   }
 })
 

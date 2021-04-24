@@ -34,8 +34,9 @@ client.on("join", (channel, username, self) => {
     console.log(`[${time.toLocaleString()}] ${username} has joined ${channel}`)
     client.say(channel, 
       `
-      Thanks and welcome to the stream, ${username}!  Glad to have you here! Kick off your shoes and remember positive vibes only! No Krusty's! 💜 🤜🏻🤛🏿 💚
+      HI ${username}, welcome.
       `
+      
     )
   }
 })

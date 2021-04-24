@@ -4,7 +4,10 @@
   "description": "a few very simple twitch bots for a few members committed into the Institution",
   "main": "/",
   "scripts": {
-    "start": "node src/jodybot/src/index.js & node src/joeybot/src/index.js & node src/lukebot/src/index.js"
+    "start-all": "node src/jodybot/src/index.js & node src/joeybot/src/index.js & node src/lukebot/src/index.js",
+    "start-jody":"node src/jodybot/src/index.js",
+    "start-joey":"node src/joeybot/src/index.js",
+    "start-luke":"node src/lukebot/src/index.js"
   },
   "repository": {
     "type": "git",
